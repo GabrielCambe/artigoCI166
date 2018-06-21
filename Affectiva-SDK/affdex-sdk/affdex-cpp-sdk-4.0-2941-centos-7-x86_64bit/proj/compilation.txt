@@ -1,0 +1,2 @@
+export LD_LIBRARY_PATH=$HOME/affdex-sdk/lib
+g++ main.cpp -o main -std=c++11 -I$HOME/affdex-sdk/include -L$HOME/affdex-sdk/lib -l affdex-native
